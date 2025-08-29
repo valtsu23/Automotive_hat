@@ -2,11 +2,11 @@ import gpiozero
 import time
 
 # MCP3008 Analog to digital converter channels 1-5
-adc_1 = gpiozero.MCP3008(1, max_voltage=5)
-adc_2 = gpiozero.MCP3008(2, max_voltage=5)
-adc_3 = gpiozero.MCP3008(3, max_voltage=5)
-adc_4 = gpiozero.MCP3008(4, max_voltage=5)
-adc_5 = gpiozero.MCP3008(5, max_voltage=5)
+adc_1 = gpiozero.MCP3008(1)
+adc_2 = gpiozero.MCP3008(2)
+adc_3 = gpiozero.MCP3008(3)
+adc_4 = gpiozero.MCP3008(4)
+adc_5 = gpiozero.MCP3008(5)
 
 # 12V tolerant digital inputs channels 1-4.
 # Pull up resistors on pcb, so reversed signal with active_state=False
@@ -22,11 +22,10 @@ dout_3 = gpiozero.OutputDevice(pin=18)
 dout_4 = gpiozero.OutputDevice(pin=23)
 
 while True:
-    print("Adc channel 1: ", adc_1.voltage)
-    print("Adc channel 2: ", adc_2.voltage)
-    print("Adc channel 3: ", adc_3.voltage)
-    print("Adc channel 4: ", adc_4.voltage)
-    print("Adc channel 5: ", adc_5.voltage)
+    print("Adc channel 1: ", adc_1.raw_value)
+    print("Adc channel 2: ", adc_2.raw_value)
+    print("Adc channel 3: ", adc_3.raw_value)
+    print("Adc channel 4: ", adc_4.raw_value)
 
     print("DIN 1 state:", din_1.is_active)
     print("DIN 2 state:", din_2.is_active)
@@ -35,21 +34,29 @@ while True:
     time.sleep(1)
 
     dout_1.on()
+    print("DO 1 ON")
     time.sleep(1)
     dout_1.off()
+    print("DO 1 OFF")
     time.sleep(1)
 
     dout_2.on()
+    print("DO 2 ON")
     time.sleep(1)
     dout_2.off()
+    print("DO 2 OFF")
     time.sleep(1)
 
     dout_3.on()
+    print("DO 3 ON")
     time.sleep(1)
     dout_3.off()
+    print("DO 3 OFF")
     time.sleep(1)
 
     dout_4.on()
+    print("DO 4 ON")
     time.sleep(1)
     dout_4.off()
+    print("DO 4 OFF")
     time.sleep(1)
