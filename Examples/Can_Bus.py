@@ -1,7 +1,6 @@
 # This example code is dependent on python-can library.
 # pip install python-can
 
-
 import can
 import os
 import time
