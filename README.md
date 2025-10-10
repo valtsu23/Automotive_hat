@@ -1,4 +1,4 @@
-# Automotive_hat for Raspberry Pi
+# Automotive hat for Raspberry Pi
 
 ### To do:
 - Add pictures
@@ -8,7 +8,7 @@
 - [Step file](https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=4p1kkjih&dl=0)
 - [3D model viewer](https://3dviewer.net/#model=https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=urt7w919&dl=0)
 
-This project was inspired by my earlier project: [DIY-Emu-Black-Dash-Rpi5-V2](https://github.com/valtsu23/DIY-Emu-Black-Dash-Rpi5-V2)
+This project was inspired by my earlier project: [DIY-Emu-Black-Dash-Rpi5-V2](https://github.com/valtsu23/DIY-Emu-Black-Dash-Rpi5-V2).
 When I tried to find similar products I only found CarPiHAT by ThePiHut, but it lacked analog inputs and has pretty low number of IO:s. 
 
 ### Main features: 
@@ -71,15 +71,15 @@ Switched 12V power wakes up the device and Raspberry Pi starts booting and on bo
 
 ### Add these lines to /boot/firmware/config.txt for hardware support:
 To activate the power relay
-'dtoverlay=gpio-poweroff,active_low=1,inactive_delay_ms=0,gpiopin=22'
+`dtoverlay=gpio-poweroff,active_low=1,inactive_delay_ms=0,gpiopin=22`
 Can Bus chip
-'dtoverlay=mcp2515-can1,oscillator=16000000,interrupt=25'
+`dtoverlay=mcp2515-can1,oscillator=16000000,interrupt=25`
 DIN 1 automatic shutdown, when switched 12v is lost. Add next line only if solder jumper SW on the pcb is connected! 
-'dtoverlay=gpio-shutdown,gpio_pin=5,active_low=0'
+`dtoverlay=gpio-shutdown,gpio_pin=5,active_low=0`
 
 ### How to run examples in Raspberry Pi OS and OS Lite
 - First create a Python Virtual Environment, by following [this guide](https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/overview)
 Remember to include system site packages!
-- For Can Bus support install python-can 'pip install python-can'
-- For Neopixels install Adafruit-Blinka 'pip install Adafruit-Blinka'
-- For Neopixels on Raspberry Pi 5 also install Adafruit-Blinka-Raspberry-Pi5-Neopixel 'pip install Adafruit-Blinka-Raspberry-Pi5-Neopixel'
+- For Can Bus support install python-can `pip install python-can`
+- For Neopixels install Adafruit-Blinka `pip install Adafruit-Blinka`
+- For Neopixels on Raspberry Pi 5 also install Adafruit-Blinka-Raspberry-Pi5-Neopixel `pip install Adafruit-Blinka-Raspberry-Pi5-Neopixel`
