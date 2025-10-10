@@ -3,6 +3,11 @@
 ### To do:
 - Add pictures
 
+### Additional files
+- [Schematic](https://www.dropbox.com/scl/fi/iavjqscsv059lmrkn0drn/Automotive_hat_Schematics.pdf?rlkey=1wznfggolzi144akhuucwucm8&st=d3ek3ai6&dl=0)
+- [Step file](https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=4p1kkjih&dl=0)
+- [3D model viewer](https://3dviewer.net/#model=https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=urt7w919&dl=0)
+
 This project was inspired by my earlier project: https://github.com/valtsu23/DIY-Emu-Black-Dash-Rpi5-V2
 When I tried to find similar products I only found CarPiHAT by ThePiHut, but it lacked analog inputs and has pretty low number of IO:s. 
 
@@ -29,7 +34,7 @@ Switched 12V power wakes up the device and Raspberry Pi starts booting and on bo
 - I recommend using 0.5mm2 wires for power and ground. 
 - If you use Digital outputs I recommend using extra ground wire to J2 pin 1. 
 
-# Connectors J1 - J3
+### Connectors J1 - J3
 - Connectors are designed to use screw terminal: Pheonix contact 1725711
 - Normal .1" pin header can be used 
 - 0.5mm2 wires can be soldered directly, but it's a tight fit
@@ -78,7 +83,3 @@ Remember to include system site packages!
 - For Can Bus support install python-can 'pip install python-can'
 - For Neopixels install Adafruit-Blinka 'pip install Adafruit-Blinka'
 - For Neopixels on Raspberry Pi 5 also install Adafruit-Blinka-Raspberry-Pi5-Neopixel 'pip install Adafruit-Blinka-Raspberry-Pi5-Neopixel'
-
-### Examples dependencies
-- gpiozero (installed by default in Raspberry Pi OS)
-- python-can
