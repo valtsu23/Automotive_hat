@@ -70,12 +70,9 @@ Switched 12V power wakes up the device and Raspberry Pi starts booting and on bo
 8. Digital input 1 (12V tolerant) GPIO 5
 
 ### Add these lines to /boot/firmware/config.txt for hardware support:
-To activate the power relay
-`dtoverlay=gpio-poweroff,active_low=1,inactive_delay_ms=0,gpiopin=22`
-Can Bus chip
-`dtoverlay=mcp2515-can1,oscillator=16000000,interrupt=25`
-DIN 1 automatic shutdown, when switched 12v is lost. Add next line only if solder jumper SW on the pcb is connected! 
-`dtoverlay=gpio-shutdown,gpio_pin=5,active_low=0`
+- To activate the power relay `dtoverlay=gpio-poweroff,active_low=1,inactive_delay_ms=0,gpiopin=22`
+- Can Bus chip `dtoverlay=mcp2515-can1,oscillator=16000000,interrupt=25`
+- DIN 1 automatic shutdown, when switched 12v is lost. Add this line only if solder jumper SW on the pcb is connected! `dtoverlay=gpio-shutdown,gpio_pin=5,active_low=0`
 
 ### How to run examples in Raspberry Pi OS and OS Lite
 - First create a Python Virtual Environment, by following [this guide](https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/overview)
