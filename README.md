@@ -8,7 +8,7 @@
 - [Step file](https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=4p1kkjih&dl=0)
 - [3D model viewer](https://3dviewer.net/#model=https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=urt7w919&dl=0)
 
-This project was inspired by my earlier project: https://github.com/valtsu23/DIY-Emu-Black-Dash-Rpi5-V2
+This project was inspired by my earlier project: [DIY-Emu-Black-Dash-Rpi5-V2](https://github.com/valtsu23/DIY-Emu-Black-Dash-Rpi5-V2)
 When I tried to find similar products I only found CarPiHAT by ThePiHut, but it lacked analog inputs and has pretty low number of IO:s. 
 
 ### Main features: 
