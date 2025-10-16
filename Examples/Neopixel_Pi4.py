@@ -11,7 +11,7 @@ try:
     while True:
         for x in range(3):
             color = colors[x]
-            for x in range(8):
+            for x in range(num_pixels):
                 pixels[x] = color
                 time.sleep(.1)
                 pixels[x] = (0, 0, 0)
