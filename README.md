@@ -79,4 +79,4 @@ Switched 12V power wakes up the device and Raspberry Pi starts booting and on bo
 Remember to include system site packages!
 - For Can Bus support install python-can `pip install python-can`
 - For Neopixels install Adafruit-Blinka `pip install Adafruit-Blinka`
-- For Neopixels on Raspberry Pi 5 also install Adafruit-Blinka-Raspberry-Pi5-Neopixel `pip install Adafruit-Blinka-Raspberry-Pi5-Neopixel`
+- For Neopixels on Raspberry Pi 5 also `pip install Adafruit-Blinka-Raspberry-Pi5-Neopixel`
