@@ -5,6 +5,7 @@
 
 ### Additional files
 - [Schematic](https://www.dropbox.com/scl/fi/iavjqscsv059lmrkn0drn/Automotive_hat_Schematics.pdf?rlkey=1wznfggolzi144akhuucwucm8&st=d3ek3ai6&dl=0)
+- [Libre PCB project](https://www.dropbox.com/scl/fi/lksvlw7bsu9jo7t3yq4of/Automotive_hat.lppz?rlkey=w2fywejnwz0x9pa1phe22ul6w&st=q8x242gr&dl=0)
 - [Step file](https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=4p1kkjih&dl=0)
 - [3D model viewer](https://3dviewer.net/#model=https://www.dropbox.com/scl/fi/zjf9aknypds8e6wfc7z42/Automotive_hat.step?rlkey=rbrz324ngjgzv7312mqohl4mg&st=urt7w919&dl=0)
 
