@@ -1,6 +1,8 @@
 import gpiozero
 import time
 
+din_1_available = True
+
 # MCP3008 Analog to digital converter channels 1-5
 adc_1 = gpiozero.MCP3008(1,  max_voltage=5)
 adc_2 = gpiozero.MCP3008(2,  max_voltage=5)
@@ -10,7 +12,11 @@ adc_5 = gpiozero.MCP3008(5,  max_voltage=5)
 
 # 12V tolerant digital inputs channels 1-4.
 # Pull up resistors on pcb, so reversed signal with active_state=False
-din_1 = gpiozero.InputDevice(pin=5, pull_up=None, active_state=False)
+try:
+    din_1 = gpiozero.InputDevice(pin=5, pull_up=None, active_state=False)
+except:
+    print("DIN 1 in other use")
+    din_1_available = False
 din_2 = gpiozero.InputDevice(pin=6, pull_up=None, active_state=False)
 din_3 = gpiozero.InputDevice(pin=13, pull_up=None, active_state=False)
 din_4 = gpiozero.InputDevice(pin=19, pull_up=None, active_state=False)
@@ -28,7 +34,8 @@ while True:
     print("Adc channel 4: ", adc_4.voltage)
     print("Adc channel 5: ", adc_5.voltage)
 
-    print("DIN 1 state:", din_1.is_active)
+    if din_1_available:
+        print("DIN 1 state:", din_1.is_active)
     print("DIN 2 state:", din_2.is_active)
     print("DIN 3 state:", din_3.is_active)
     print("DIN 4 state:", din_4.is_active)
