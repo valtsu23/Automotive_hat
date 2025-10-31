@@ -78,6 +78,6 @@ Switched 12V power wakes up the device and Raspberry Pi starts booting and on bo
 ### How to run examples in Raspberry Pi OS and OS Lite
 - First create a Python Virtual Environment, by following [this guide](https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/overview)
 Remember to include system site packages!
-- For Can Bus support install python-can `pip install python-can`
-- For Neopixels install Adafruit-Blinka `pip install Adafruit-Blinka`
+- For Can Bus support `pip install python-can`
+- For Neopixels `pip install Adafruit-Blinka`
 - For Neopixels on Raspberry Pi 5 also `pip install Adafruit-Blinka-Raspberry-Pi5-Neopixel`
