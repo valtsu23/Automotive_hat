@@ -3,7 +3,7 @@ import adafruit_pixelbuf
 import board
 from adafruit_raspberry_pi5_neopixel_write import neopixel_write
 
-NEOPIXEL = board.D13
+NEOPIXEL = board.D21
 num_pixels = 8
 
 class Pi5Pixelbuf(adafruit_pixelbuf.PixelBuf):
