@@ -34,7 +34,7 @@ When I tried to find similar products I only found CarPiHAT by ThePiHut, but it 
 - Switched power (usually from ignition switch)
 
 ### How power circuit works:
-Switched 12V power wakes up the device and Raspberry Pi starts booting and on boot process the relay turns on. Shutdown command can be given from software or Digital input 1 can be used to trigger shutdown when switched power is lost. On Pcb there is a solder jumper named SW to connect switched power to Digital input 1. For this function a dtoverlay must be added to config.txt. After safe shutdown the relay turns off and cuts power from the device. 
+Switched 12V power wakes up the device and Raspberry Pi starts booting and on boot process the relay turns on. Shutdown command can be given from software or digital input 1 can be used to trigger shutdown when switched power is lost. On Pcb there is a solder jumper named SW to connect switched power to digital input 1. For this function a dtoverlay must be added to config.txt. After safe shutdown the relay turns off and cuts power from the device. 
 
 ### Wiring
 - I recommend using 0.5mm2 wires for power and ground. 
