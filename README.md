@@ -1,7 +1,12 @@
 # Automotive hat for Raspberry Pi
 
-### To do:
-- Add pictures
+![1](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/IMG_20251127_200620300.jpg)
+
+![2](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/IMG_20251127_200642246.jpg)
+
+![3](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/IMG_20251127_200710807.jpg)
+
+![4](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/IMG_20251127_200958704.jpg)
 
 ### Additional files
 - [Schematic](https://www.dropbox.com/scl/fi/iavjqscsv059lmrkn0drn/Automotive_hat_Schematics.pdf?rlkey=1wznfggolzi144akhuucwucm8&st=d3ek3ai6&dl=0)
