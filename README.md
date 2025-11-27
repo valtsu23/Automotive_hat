@@ -25,7 +25,7 @@ When I tried to find similar products I only found CarPiHAT by ThePiHut, but it 
 - One Neopixel output with voltage level converter
 - 5 analog inputs 0-5V with a place for pull up resistors (MCP3008 ADC)
 - 4 Digital inputs 12V tolerant (ACPL-247-560E Optocoupler)
-- 4 Digital low side outputs. 12V 500mA tolerant with flyback diodes (ULN2803AD Darlington driver)
+- 4 Digital low side outputs (provides ground). 12V 500mA tolerant with flyback diodes (ULN2803AD Darlington driver)
 - Stemma QT connector for i2c devices
 - 5V power output for display etc. 
 
@@ -38,7 +38,7 @@ Switched 12V power wakes up the device and Raspberry Pi starts booting and on bo
 
 ### Wiring
 - I recommend using 0.5mm2 wires for power and ground. 
-- If you use Digital outputs I recommend using extra ground wire to J2 pin 1. 
+- If you use digital outputs I recommend using extra ground wire to J2 pin 1. 
 
 ### Connectors J1 - J3
 - Connectors are designed to use screw terminal: Pheonix contact 1725711
