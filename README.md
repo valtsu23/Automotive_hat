@@ -9,8 +9,9 @@
 ![4](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/IMG_20251127_200958704.jpg)
 
 ### I have made small patch for sale (50€ + shipping / pcb)
+### Here is what's included:
 ![What's included](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/20260303_005008.jpg)
-Email me if you are interested of byuing one. 
+Email me if you are interested of buying one! 
 
 ### Additional files
 - [Schematic](https://www.dropbox.com/scl/fi/iavjqscsv059lmrkn0drn/Automotive_hat_Schematics.pdf?rlkey=1wznfggolzi144akhuucwucm8&st=d3ek3ai6&dl=0)
