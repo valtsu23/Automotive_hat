@@ -8,7 +8,7 @@
 
 ![4](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/IMG_20251127_200958704.jpg)
 
-### I have made a small batch for sale (50€ + shipping / pcb)
+### I have made a small batch for sale (50€ + shipping). 
 ### Here is what's included:
 ![What's included](https://github.com/valtsu23/Pictures/blob/main/Automotive_hat/20260303_005008.jpg)
 Email me if you are interested of buying one! 
